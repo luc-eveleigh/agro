@@ -1,0 +1,10 @@
+k2 : O + O2 + M -> O3 + M 6.0e-34 2.4	k2 = 6.0e-34*(T/300)**(-2.4)  (termoléculaire)
+
+k4 : O + O3 -> 2 O2 8.0e-12 2060		k4 = 8.0e-12*exp(-2060/T)  (bimoléculaire)
+k5 : O + HO2 -> HO + O2   3.0e-11 -200	k5 = 3.0e-11*exp(200/T)  (bimoléculaire)
+k6 : HO + O3  -> HO2 + O2 1.7e-12 940	k6 = 1.7e-12*exp-940/T)  (bimoléculaire)
+k7 : O + NO2 -> NO + O2 5.1e-12 -210	k7 = 5.1e-12*exp(210/T)  (bimoléculaire)
+k8 : NO + O3  -> NO2 + O2 3.0e-12 1500	k8 = 3.0e-12*exp(-1500/T)  (bimoléculaire)
+k9 : O + ClO -> Cl + O2 2.8e-11 -85		k9 = 2.8e-11*exp(85/T)  (bimoléculaire)
+k10: Cl + O3  -> Cl + O2 2.3e-11 200	k10 = 2.3e-11*exp(-200/T)  (bimoléculaire)
+
